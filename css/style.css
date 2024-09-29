@@ -1,0 +1,69 @@
+body{
+    background: rgb(236,221,174);
+    background: linear-gradient(90deg, rgba(236,221,174,1) 0%, rgba(171,120,120,1) 100%);
+    font-family: "Roboto", sans-serif;
+}
+
+.screen{
+    background-color: rgba(255, 255, 255);
+    border: 5px solid rgba(197,171,157, 0.8); 
+    border-radius: 40px;
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;
+}
+
+.book img{
+    width: 350px;
+    border-radius: 40px;
+    margin-left: 60px;
+    margin-top: 35px;
+}
+
+.title{
+    color: #5e4447;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sub-title{
+    color: #5e4447;
+    font-size: 16px;
+    margin-top: 90px;
+}
+
+.field{
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    width: 400px;
+    height: 40px;
+    border: 2px solid rgba(197,171,157, 0.8);
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btn-white{
+    width: 200px;
+    height: 40px;
+    background-color: rgba(197,171,157, 0.3); 
+    border: 2px solid rgba(197,171,157, 0.8); 
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btn-white:hover{
+    background-color: rgba(197,171,157, 0.8); 
+}
