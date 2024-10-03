@@ -32,12 +32,12 @@ body{
 .sub-title{
     color: #5e4447;
     font-size: 16px;
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
 .field{
     margin-left: 100px;
-    margin-top: 90px;
+    margin-top: 80px;
 }
 
 .form{
@@ -54,16 +54,43 @@ body{
     margin-top: 20px;
 }
 
-.btn-white{
-    width: 200px;
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-enter{
+    color: #5e4447;
     height: 40px;
     background-color: rgba(197,171,157, 0.3); 
     border: 2px solid rgba(197,171,157, 0.8); 
     border-radius: 5px;
     font-size: 16px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
-.btn-white:hover{
+.btn-enter:hover{
+    background-color: rgba(197,171,157, 0.8); 
+}
+
+.register{
+    color: #5e4447;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.btn-register{
+    color: #5e4447;
+    height: 40px;
+    background-color: rgba(197,171,157, 0.3); 
+    border: 2px solid rgba(197,171,157, 0.8); 
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn-register:hover{
     background-color: rgba(197,171,157, 0.8); 
 }
